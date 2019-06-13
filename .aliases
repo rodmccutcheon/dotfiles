@@ -1,0 +1,17 @@
+alias f="find . -name"
+alias myip="curl ipinfo.io/ip"
+alias hs="history | grep –color=auto -n"
+alias ..="../"
+alias ...="../../"
+alias ....="../../../"
+alias .....="../../../../"
+alias zshconfig="$EDITOR ~/.zshrc"
+alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
+alias sof="stackoverflow"
+alias tf="terraform"
+
+# Upgrade apps from the Mac App Store, and brew
+alias update="mas updade && brew update && brew upgrade"
+
+# Docker image visualization (usage: `dockviz images -t`).
+alias dockviz="docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nate/dockviz"
